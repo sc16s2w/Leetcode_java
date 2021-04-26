@@ -71,32 +71,31 @@ public class sort_array {
         }
     }
 
-//    //插入排序
-//    public static void insert_sort(int[] array, int sort) {
-//        int length = array.length;
-//        if (sort == 0) {
-//            for (int i = 1; i < length; i++) {
-//                int j = i-1;
-//                while(j>=0&&array[j]<array[i]){
-//                    arr[index+1]=arr[index];
-//
-//                }
-//            }
-//            for (int i = 0; i < length; i++)
-//                System.out.println(array[i]);
-//
-//        } else {
-//            for (int i = 0; i < length - 1; i++) {
-//                for (int j = i + 1; j < length; j++) {
-//                    if (array[i] < array[j]) {
-//                        swap(array, i, j);
-//                    }
-//                }
-//            }
-//            for (int i = 0; i < length; i++)
-//                System.out.println(array[i]);
-//        }
-//    }
+    //插入排序
+    public static void insert_sort(int[] array, int sort) {
+        int length = array.length;
+        if (sort == 0) {
+            for (int i = 1; i < length; i++) {
+                int j = i;
+                for(j=i;j>0&&array[j]<array[j-1];j--){
+                    swap(array,j,j-1);
+                }
+
+            }
+            for (int i = 0; i < length; i++)
+                System.out.println(array[i]);
+
+        } else {
+            for (int i = 1; i < length; i++) {
+                int j = i;
+                for(j=i;j>0&&array[j]>array[j-1];j--){
+                    swap(array,j,j-1);
+                }
+            }
+            for (int i = 0; i < length; i++)
+                System.out.println(array[i]);
+        }
+    }
 
     public static void swap_2nd(int[] array, int i, int j) {
         array[i] = array[i] ^ array[j];
@@ -116,8 +115,9 @@ public class sort_array {
             }
             String input_2 = sc.next();
             int n = Integer.parseInt(input_2);
-            selection_sort(array, n);
-            bubble_sort(array, n);
+//            selection_sort(array, n);
+//            bubble_sort(array, n);
+            insert_sort(array,n);
         }
     }
 }
