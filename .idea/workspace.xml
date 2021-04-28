@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7279cdac-cc4e-4c5a-9f54-844f651ef2c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/Drop_oddnumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Find_arraysum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Common_parent_node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Inorder_travelsal_bt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Serialized_BT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exerscise_algorithm/com/company/感想.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exerscise_algorithm/com/company/感想.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Linkedlist_Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Linkedlist_Palindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/感想.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/感想.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +40,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.Drop_oddnumber">
+  <component name="RunManager" selected="Application.sort_array">
     <configuration name="Drop_oddnumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Drop_oddnumber" />
       <module name="Exerscise_algorithm" />
@@ -117,9 +115,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.sort_array" />
         <item itemvalue="Application.Drop_oddnumber" />
         <item itemvalue="Application.Sort_linked_list" />
-        <item itemvalue="Application.sort_array" />
         <item itemvalue="Application.array_space" />
         <item itemvalue="Application.Strng_change" />
       </list>
@@ -136,7 +134,7 @@
       <option name="presentableId" value="Default" />
       <updated>1619028442382</updated>
       <workItem from="1619028447094" duration="33717000" />
-      <workItem from="1619426251803" duration="20383000" />
+      <workItem from="1619426251803" duration="26468000" />
     </task>
     <servers />
   </component>
@@ -148,50 +146,54 @@
       <screen x="0" y="0" width="2560" height="1080" />
     </state>
     <state x="874" y="139" key="CommitChangelistDialog2/0.0.2560.1080@0.0.2560.1080" timestamp="1619103879002" />
-    <state width="2023" height="169" key="GridCell.Tab.0.bottom" timestamp="1619533106208">
+    <state width="1750" height="320" key="GridCell.Tab.0.bottom" timestamp="1619635192026">
       <screen x="0" y="25" width="2560" height="998" />
     </state>
     <state width="2518" height="331" key="GridCell.Tab.0.bottom/0.0.2560.1080@0.0.2560.1080" timestamp="1619104014553" />
-    <state width="2023" height="169" key="GridCell.Tab.0.bottom/0.25.2560.998@0.25.2560.998" timestamp="1619533106208" />
-    <state width="2023" height="169" key="GridCell.Tab.0.center" timestamp="1619533106208">
+    <state width="1750" height="320" key="GridCell.Tab.0.bottom/0.25.2560.998@0.25.2560.998" timestamp="1619635192026" />
+    <state width="1750" height="320" key="GridCell.Tab.0.center" timestamp="1619635192025">
       <screen x="0" y="25" width="2560" height="998" />
     </state>
     <state width="2518" height="331" key="GridCell.Tab.0.center/0.0.2560.1080@0.0.2560.1080" timestamp="1619104014552" />
-    <state width="2023" height="169" key="GridCell.Tab.0.center/0.25.2560.998@0.25.2560.998" timestamp="1619533106208" />
-    <state width="2023" height="169" key="GridCell.Tab.0.left" timestamp="1619533106208">
+    <state width="1750" height="320" key="GridCell.Tab.0.center/0.25.2560.998@0.25.2560.998" timestamp="1619635192025" />
+    <state width="1750" height="320" key="GridCell.Tab.0.left" timestamp="1619635192025">
       <screen x="0" y="25" width="2560" height="998" />
     </state>
     <state width="2518" height="331" key="GridCell.Tab.0.left/0.0.2560.1080@0.0.2560.1080" timestamp="1619104014552" />
-    <state width="2023" height="169" key="GridCell.Tab.0.left/0.25.2560.998@0.25.2560.998" timestamp="1619533106208" />
-    <state width="2023" height="169" key="GridCell.Tab.0.right" timestamp="1619533106208">
+    <state width="1750" height="320" key="GridCell.Tab.0.left/0.25.2560.998@0.25.2560.998" timestamp="1619635192025" />
+    <state width="1750" height="320" key="GridCell.Tab.0.right" timestamp="1619635192025">
       <screen x="0" y="25" width="2560" height="998" />
     </state>
     <state width="2518" height="331" key="GridCell.Tab.0.right/0.0.2560.1080@0.0.2560.1080" timestamp="1619104014553" />
-    <state width="2023" height="169" key="GridCell.Tab.0.right/0.25.2560.998@0.25.2560.998" timestamp="1619533106208" />
-    <state width="2023" height="248" key="GridCell.Tab.1.bottom" timestamp="1619459751944">
+    <state width="1750" height="320" key="GridCell.Tab.0.right/0.25.2560.998@0.25.2560.998" timestamp="1619635192025" />
+    <state width="2023" height="248" key="GridCell.Tab.1.bottom" timestamp="1619533498100">
       <screen x="0" y="25" width="2560" height="998" />
     </state>
     <state width="2518" height="331" key="GridCell.Tab.1.bottom/0.0.2560.1080@0.0.2560.1080" timestamp="1619104014555" />
-    <state width="2023" height="248" key="GridCell.Tab.1.bottom/0.25.2560.998@0.25.2560.998" timestamp="1619459751944" />
-    <state width="2023" height="248" key="GridCell.Tab.1.center" timestamp="1619459751944">
+    <state width="2023" height="248" key="GridCell.Tab.1.bottom/0.25.2560.998@0.25.2560.998" timestamp="1619533498100" />
+    <state width="2023" height="248" key="GridCell.Tab.1.center" timestamp="1619533498100">
       <screen x="0" y="25" width="2560" height="998" />
     </state>
     <state width="2518" height="331" key="GridCell.Tab.1.center/0.0.2560.1080@0.0.2560.1080" timestamp="1619104014554" />
-    <state width="2023" height="248" key="GridCell.Tab.1.center/0.25.2560.998@0.25.2560.998" timestamp="1619459751944" />
-    <state width="2023" height="248" key="GridCell.Tab.1.left" timestamp="1619459751944">
+    <state width="2023" height="248" key="GridCell.Tab.1.center/0.25.2560.998@0.25.2560.998" timestamp="1619533498100" />
+    <state width="2023" height="248" key="GridCell.Tab.1.left" timestamp="1619533498100">
       <screen x="0" y="25" width="2560" height="998" />
     </state>
     <state width="2518" height="331" key="GridCell.Tab.1.left/0.0.2560.1080@0.0.2560.1080" timestamp="1619104014554" />
-    <state width="2023" height="248" key="GridCell.Tab.1.left/0.25.2560.998@0.25.2560.998" timestamp="1619459751944" />
-    <state width="2023" height="248" key="GridCell.Tab.1.right" timestamp="1619459751944">
+    <state width="2023" height="248" key="GridCell.Tab.1.left/0.25.2560.998@0.25.2560.998" timestamp="1619533498100" />
+    <state width="2023" height="248" key="GridCell.Tab.1.right" timestamp="1619533498100">
       <screen x="0" y="25" width="2560" height="998" />
     </state>
     <state width="2518" height="331" key="GridCell.Tab.1.right/0.0.2560.1080@0.0.2560.1080" timestamp="1619104014555" />
-    <state width="2023" height="248" key="GridCell.Tab.1.right/0.25.2560.998@0.25.2560.998" timestamp="1619459751944" />
+    <state width="2023" height="248" key="GridCell.Tab.1.right/0.25.2560.998@0.25.2560.998" timestamp="1619533498100" />
     <state x="1209" y="353" key="com.intellij.ide.util.TipDialog" timestamp="1619426253302">
       <screen x="0" y="25" width="2560" height="998" />
     </state>
     <state x="1209" y="353" key="com.intellij.ide.util.TipDialog/0.25.2560.998@0.25.2560.998" timestamp="1619426253302" />
+    <state x="1082" y="143" key="new project wizard" timestamp="1619635187168">
+      <screen x="0" y="25" width="2560" height="998" />
+    </state>
+    <state x="1082" y="143" key="new project wizard/0.25.2560.998@0.25.2560.998" timestamp="1619635187168" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Exerscise_algorithm$sort_array.ic" NAME="sort_array Coverage Results" MODIFIED="1619103889790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
